@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account</title>
+    <style>
+        .Main_Page{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            width: 100%;
+            height: 98vh;
+            background-color: antiquewhite;
+        }
+        .Header{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: row;
+        }
+        .Header .Account {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color:white;
+            font-size: 18px;
+            font-weight: 600;
+            width: 250px;
+            height: 50px;
+            background-color: coral;
+            border-radius: 10px 0 0 10px;
+        }
+        .Header .P-Details {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color:white;
+            font-size: 18px;
+            font-weight: 600;
+            width: 250px;
+            height: 50px;
+            background-color:lightslategrey;
+        }
+        .Header .Review {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color:white;
+            font-size: 18px;
+            font-weight: 600;
+            width: 250px;
+            height: 50px;
+            background-color:lightslategrey;
+            border-radius: 0 10px 10px 0;
+        }
+        .account-form {
+            background-color: white;
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;
+            flex-direction: column;
+            border: 2px solid lightcoral;
+            border-radius: 10px;
+            margin-top: 35px;
+            width: 730px;
+            height: 76vh;
+            padding: 20px; /* added padding to create space inside the border */
+            box-sizing: border-box; /* ensures padding is included in the total width/height */
+            }
+
+        .form-title {
+            position: absolute;
+            top: 76px;
+            background-color: antiquewhite;
+            padding: 0 10px;
+            font-size: 32px;
+            color: black; /* match border color for a cohesive look */
+            border-radius: 10px;
+        }
+
+        .account-form form {
+            width: 100%;
+            max-width: 300px;
+            margin-top: 50px;
+        }
+
+        .account-form label {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 15px;
+            font-weight: 600;
+        }
+
+        .account-form input[type="text"],
+        .account-form input[type="password"] {
+            width: 100%;
+            padding: 8px;
+            box-sizing: border-box;
+            margin-top: 5px;
+        }
+
+        .navigation-links {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            max-width: 300px;
+            margin-top: 20px;
+        }
+
+        .navigation-links a {
+            text-decoration: none;
+            color: #007BFF;
+            font-weight: bold;
+        }
+
+        .navigation-links a:hover {
+            text-decoration: underline;
+        }
+
+        .navigation-links img {
+            width: 120px;
+            height: 30px;
+            margin-top: 64px;
+}
+
+    </style>
+</head>
+    <div class="Main_Page">
+    
+    <div class="Header">
+        <div class="Account">
+            Step 1: Account
+        </div>
+        <div class="P-Details">
+            Step 2: Personal Details
+        </div>
+        <div class="Review">
+            Step 3: Your Review
+        </div>
+    </div>
+    
+    <div class="account-form">
+        <h2 class="form-title">Account</h2>
+        <!-- <div class="form-section"> -->
+        <form action="#">
+            <label>Email Address:<br/>
+                <input type="text" name="Email" placeholder="Enter Your Name" required="required" /></label><br/>
+            <label>Password:<br/>
+                <input type="password" name="Password" placeholder="Enter Password" required="required" /></label><br/>
+            <label>Confirm Password:<br/>
+                <input type="password" name="confirm Password" placeholder="Enter Confirm Password" required="required"/></label><br/>   
+        </form>
+        <div class="navigation-links">
+            <a href="index.html"><img src="../6th Assignment/back.jpeg" alt="Back"></a>
+            <a href="personaldetails.html" ><img src="../6th Assignment/next.jpeg" alt="Next"></a>
+        </div>
+    <!-- </div> -->
+    </div>
+    
+
+   <!-- <h3><legend>Account</legend></h3> -->
+
+    
+</div>
+</body>
+</html>
+       
+
